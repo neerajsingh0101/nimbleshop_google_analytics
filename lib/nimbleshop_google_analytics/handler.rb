@@ -11,6 +11,8 @@
     end
 
     def perform
+      return if Rails.env.test?
+
       validations
       if errors.empty?
         Rails.logger.info "sending data to google analytics server"
