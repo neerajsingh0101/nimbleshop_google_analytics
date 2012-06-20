@@ -13,6 +13,7 @@
     def perform
       validations
       if errors.empty?
+        Rails.logger.info "sending data to google analytics server"
         send_data
       else
         Rails.logger.info errors.to_sentence
