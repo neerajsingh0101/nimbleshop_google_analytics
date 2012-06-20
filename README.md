@@ -1,7 +1,7 @@
 # nimbleshop-google-analytics
 
-This is a nimbleShop extension that handles e-commerce tracking using
-google analytics.
+This gem bring google analytics e-commerce tracking support to
+nimbleShop.
 
 
 ## Installation
